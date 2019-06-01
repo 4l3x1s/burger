@@ -4,11 +4,12 @@
   "description": "Node Express Handlebars App",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/4l3x1s/burger.git"
+    "url": "git+https://github.com/4l3x1s/burger.git"
   },
   "author": "4l3x1s",
   "license": "MIT",
@@ -20,5 +21,10 @@
     "express": "^4.17.0",
     "express-handlebars": "^3.1.0",
     "mysql": "^2.17.1"
-  }
+  },
+  "devDependencies": {},
+  "keywords": [
+    "Burger",
+    "Assignment"
+  ]
 }
